@@ -209,7 +209,6 @@ a {
 }
 
 
-
 /* Buttons */
 .btn {
     border-radius: 40px;
@@ -572,6 +571,11 @@ a {
 .callout {
     padding: 4rem;
     border-radius: 5px;
+    height: 195px;
+    width: 1140px;
+    position: relative;
+    display: grid;
+
 }
 
 .callout--primary {
