@@ -22,7 +22,7 @@
   <header>
     <!-- nav block -->
     <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
+        <a class="nav__brand" href="/"><img class="nav__logo" src="images/logo.svg" alt=""></a>
         <svg class="icon icon--white nav__toggler">
             <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -137,26 +137,26 @@
     </div>
   </section>
   <!-- feature block -->
-  <div class="block container">
+  <div class="block container" >
     <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dolor!</p>
     </header>
     <article class="grid grid--1x2 feature">
-      <div  data-aos="zoom-in-up" >
+      <div  data-aos="zoom-in-up">
           <span class="icon-container">
               <svg class="icon icon--primary">
                   <use href="images/sprite.svg#easy"></use>
               </svg>
           </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
+          <h3 class="feature__heading" >Super Easy to Use</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                Minima natus perspiciatis dolore itaque, 
               labore omnis numquam illo similique nostrum molestias.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
       </div>
-      <picture data-aos="slide-up">
+      <picture  data-aos="zoom-in-up">
           <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
           <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
           <img class="feature__image" src="images/easy@2x.jpg" alt="">
@@ -179,7 +179,7 @@
           <a href="#" class="link-arrow">Learn More</a>
       
       </div>
-      <picture data-aos="zoom-in-left">
+      <picture >
           <source type="image/webp" srcset="images/fast.webp 1x, images/fast@2x.webp 2x">
           <source type="image/jpg" srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x">
           <img class="feature__image" src="images/fast@2x.jpg" alt="">
@@ -188,7 +188,7 @@
 </div>
 <div class="block container">
     <article class="grid grid--1x2 feature">
-      <div>
+      <div data-aos="fade-up">
           <span class="icon-container">
               <svg class="icon icon--primary">
                   <use href="images/sprite.svg#wordpress"></use>
@@ -338,18 +338,20 @@
     </div>
    </section>
    <!-- callout block -->
-   <div class="callout callout--primary">
-    <div class="grid grid--1x2">
-        <div class="callout__content">
-            <h2 class="callout__heading">Ready to Get Started?</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 Magnam asperiores aperiam consequuntur cupiditate! Consectetur,
-                voluptas tempore enim culpa eligendi quasi.
-            </p>
+   <div class="container">
+       <div class="callout callout--primary">
+        <div class="grid grid--1x2">
+            <div class="callout__content">
+                <h2 class="callout__heading">Ready to Get Started?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Magnam asperiores aperiam consequuntur cupiditate! Consectetur,
+                    voluptas tempore enim culpa eligendi quasi.
+                </p>
+            </div>
+            <a href="" class="btn btn--secondary btn__stretched" data-aos="zoom-out">Get Started</a>
         </div>
-        <a href="" class="btn btn--secondary btn__stretched" data-aos="zoom-out">Get Started</a>
-    </div>
- </div>
+        </div>
+   </div>
  <!-- footer block -->
  <footer class="block block--dark footer">
     <div class="container grid footer__sections">
@@ -363,10 +365,8 @@
             <div class="collapsible__content">
                <ul class="list">
                 <li><a href="#">Web Hosting</a></li>
-                <li><a href="#">Free Automated Wordpress</a></li>
                 <li><a href="#">Migrations</a></li>
                 <li><a href="#">Domain Names</a></li>
-                <li><a href="#">Monthly Web Hosting</a></li>
                </ul>
             </div>
         </section>
@@ -380,10 +380,8 @@
             <div class="collapsible__content">
                 <ul class="list">
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Affiliates</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Carreers</a></li>
-                    <li><a href="#">Community</a></li>
                    </ul>
             </div>
         </section>
@@ -399,8 +397,6 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Knowledge Base</a></li>
                     <li><a href="#">Forums</a></li>
-                    <li><a href="#">System Status</a></li>
-                    <li><a href="#"> Web Hosting</a></li>
                 </ul>
             </div>
         </section>
@@ -414,10 +410,8 @@
             <div class="collapsible__content">
                 <ul class="list">
                     <li><a href="#">Domain Checker</a></li>
-                    <li><a href="#">Domain Transfer</a></li>
                     <li><a href="#">Free Domain </a></li>
                     <li><a href="#">XYZ Domain</a></li>
-                    <li><a href="#">Cheap SSL Certificate</a></li>
                    </ul>
             </div>
         </section>
